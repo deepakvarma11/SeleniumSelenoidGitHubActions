@@ -16,4 +16,4 @@ jobs:
     - uses: actions/checkout@v1
     
     - name: run the test
-      run: mvn clean test
+      run: mvn test
