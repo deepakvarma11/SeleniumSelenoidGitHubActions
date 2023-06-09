@@ -19,7 +19,7 @@ public class GooglePage {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
 	options.addArguments("--headless");
-        driver = new ChromeDriver(u, options);
+        driver = new ChromeDriver(options);
     }
     @Test
     void GoogleTitleValidation() {
