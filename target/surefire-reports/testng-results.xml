@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-09T07:12:35Z" name="Suite" finished-at="2023-06-09T07:12:39Z" duration-ms="4501">
+  <suite started-at="2023-06-09T07:33:31Z" name="Suite" finished-at="2023-06-09T07:33:37Z" duration-ms="5467">
     <groups>
     </groups>
-    <test started-at="2023-06-09T07:12:35Z" name="Test" finished-at="2023-06-09T07:12:39Z" duration-ms="4501">
+    <test started-at="2023-06-09T07:33:31Z" name="Test" finished-at="2023-06-09T07:33:37Z" duration-ms="5467">
       <class name="Test.MavenProject.GooglePage">
-        <test-method is-config="true" signature="WebDriversetup()[pri:0, instance:Test.MavenProject.GooglePage@791f145a]" started-at="2023-06-09T07:12:35Z" name="WebDriversetup" finished-at="2023-06-09T07:12:37Z" duration-ms="2308" status="PASS">
+        <test-method is-config="true" signature="WebDriversetup()[pri:0, instance:Test.MavenProject.GooglePage@791f145a]" started-at="2023-06-09T07:33:31Z" name="WebDriversetup" finished-at="2023-06-09T07:33:34Z" duration-ms="3086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- WebDriversetup -->
-        <test-method signature="GoogleTitleValidation()[pri:0, instance:Test.MavenProject.GooglePage@791f145a]" started-at="2023-06-09T07:12:37Z" name="GoogleTitleValidation" finished-at="2023-06-09T07:12:39Z" duration-ms="2065" status="PASS">
+        <test-method signature="GoogleTitleValidation()[pri:0, instance:Test.MavenProject.GooglePage@791f145a]" started-at="2023-06-09T07:33:34Z" name="GoogleTitleValidation" finished-at="2023-06-09T07:33:37Z" duration-ms="2205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- GoogleTitleValidation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:Test.MavenProject.GooglePage@791f145a]" started-at="2023-06-09T07:12:39Z" name="teardown" finished-at="2023-06-09T07:12:39Z" duration-ms="112" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test.MavenProject.GooglePage@791f145a]" started-at="2023-06-09T07:33:37Z" name="teardown" finished-at="2023-06-09T07:33:37Z" duration-ms="153" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
