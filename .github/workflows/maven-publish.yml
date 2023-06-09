@@ -18,6 +18,8 @@ jobs:
       uses: n-ton4/selenoid-github-action@master
       id: start-selenoid
       continue-on-error: false
+      with:
+        version: 1.01.1
     
     - name: checkout
       uses: actions/checkout@v2
