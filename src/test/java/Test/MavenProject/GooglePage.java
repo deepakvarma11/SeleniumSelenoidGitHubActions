@@ -19,7 +19,8 @@ public class GooglePage {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
 	options.addArguments("--headless");
-        driver = new ChromeDriver(options);
+	URL u=new URL("http://localhost:4444/wd/hub");
+        driver = new ChromeDriver(u, options);
     }
     @Test
     void GoogleTitleValidation() {
