@@ -4,7 +4,7 @@
 name: Run selenium testcases using selenoid server
 
 on:
-  push:
+  workflow_dispatch:
  
 
 jobs:
