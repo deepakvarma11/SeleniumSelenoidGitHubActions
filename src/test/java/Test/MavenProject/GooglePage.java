@@ -1,5 +1,7 @@
 package Test.MavenProject;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -30,7 +32,7 @@ public class GooglePage {
     @Test
     void GoogleTitleValidation() {
     	driver.get("https://google.com");
-    	Assert.assertEquals(driver.getTitle(), "Google");
+    	AssertJUnit.assertEquals(driver.getTitle(), "Google");
     }
  
     @AfterTest

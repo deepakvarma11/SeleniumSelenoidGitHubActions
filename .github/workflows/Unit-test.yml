@@ -1,0 +1,19 @@
+name: unit-test cases
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start selenoid
+        uses: Xotabu4/selenoid-github-action@v2
+      - uses: actions/checkout@v1
+
+      - name: run the test
+        run: mvn test -Dsurefire.suiteXmlFiles=Unittest.xml

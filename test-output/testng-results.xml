@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19729" started-at="2023-05-14T06:42:17 IST" finished-at="2023-05-14T06:42:37 IST">
+  <suite name="Suite" duration-ms="59" started-at="2023-06-19T12:12:21 IST" finished-at="2023-06-19T12:12:21 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19729" started-at="2023-05-14T06:42:17 IST" finished-at="2023-05-14T06:42:37 IST">
-      <class name="Test.MavenProject.GooglePage">
-        <test-method status="PASS" signature="WebDriversetup()[pri:0, instance:Test.MavenProject.GooglePage@df27fae]" name="WebDriversetup" is-config="true" duration-ms="10718" started-at="2023-05-14T06:42:17 IST" finished-at="2023-05-14T06:42:28 IST">
+    <test name="Test" duration-ms="59" started-at="2023-06-19T12:12:21 IST" finished-at="2023-06-19T12:12:21 IST">
+      <class name="Test.MavenProject.Unittest">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:Test.MavenProject.Unittest@4cf4d528]" name="BeforeTest" is-config="true" duration-ms="12" started-at="2023-06-19T12:12:21 IST" finished-at="2023-06-19T12:12:21 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebDriversetup -->
-        <test-method status="PASS" signature="GoogleTitleValidation()[pri:0, instance:Test.MavenProject.GooglePage@df27fae]" name="GoogleTitleValidation" duration-ms="8737" started-at="2023-05-14T06:42:28 IST" finished-at="2023-05-14T06:42:37 IST">
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="TestcaseValidation1()[pri:0, instance:Test.MavenProject.Unittest@4cf4d528]" name="TestcaseValidation1" duration-ms="6" started-at="2023-06-19T12:12:21 IST" finished-at="2023-06-19T12:12:21 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- GoogleTitleValidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:Test.MavenProject.GooglePage@df27fae]" name="teardown" is-config="true" duration-ms="238" started-at="2023-05-14T06:42:37 IST" finished-at="2023-05-14T06:42:37 IST">
+        </test-method> <!-- TestcaseValidation1 -->
+        <test-method status="PASS" signature="TestcaseValidation2()[pri:0, instance:Test.MavenProject.Unittest@4cf4d528]" name="TestcaseValidation2" duration-ms="1" started-at="2023-06-19T12:12:21 IST" finished-at="2023-06-19T12:12:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestcaseValidation2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Test.MavenProject.Unittest@4cf4d528]" name="teardown" is-config="true" duration-ms="0" started-at="2023-06-19T12:12:21 IST" finished-at="2023-06-19T12:12:21 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- Test.MavenProject.GooglePage -->
+      </class> <!-- Test.MavenProject.Unittest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
