@@ -22,7 +22,7 @@ public class GooglePage {
 	public static RemoteWebDriver driver=null;
 	@BeforeTest
     void WebDriversetup() throws MalformedURLException {
-        WebDriverManager.chromedriver().setup();
+        //WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--remote-allow-origins=*");
         options.addArguments("--headless");
